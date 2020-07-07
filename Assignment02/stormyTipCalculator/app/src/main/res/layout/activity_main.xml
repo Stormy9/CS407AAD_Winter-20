@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#F44336"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_eachPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtLabel_perPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingTop="27dp"
+            android:text="@string/label_perPersonPays"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline3" />
+
+        <TextView
+            android:id="@+id/txtOutput_AmtPerPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.MyTheme.Headline2"
+            android:textColor="#F50E0101" />
+
+        <LinearLayout
+            android:id="@+id/layout_billTotal_TipPercentLabel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="45dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtLabel_EnterBillTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_enterBillTotal"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.MyTheme.Headline3" />
+
+            <EditText
+                android:id="@+id/txtInputBillTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="center_horizontal|center_vertical"
+                android:inputType="numberDecimal"
+                android:textAppearance="@style/TextAppearance.MyTheme.Headline3" />
+
+            <TextView
+                android:id="@+id/txtLabel_pickTipPercentage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/label_setTipPercent"
+                android:textAppearance="@style/TextAppearance.MyTheme.Headline3" />
+
+            <LinearLayout
+                android:id="@+id/layout_TipPercentPick"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="9dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnTipMinusPercent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_weight="1"
+                    android:background="#F44336"
+                    android:contentDescription="@string/contentDesc_minusBtn"
+                    app:srcCompat="@drawable/sharp_remove_circle_outline_24" />
+
+                <TextView
+                    android:id="@+id/txtTipCurrentTipPercent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="20%"
+                    android:textAppearance="@style/TextAppearance.MyTheme.Headline2" />
+
+                <ImageButton
+                    android:id="@+id/btnTipPlusPercent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginEnd="45dp"
+                    android:layout_weight="1"
+                    android:background="#F44336"
+                    android:contentDescription="@string/contentDesc_plusBtn"
+                    app:srcCompat="@drawable/sharp_add_circle_outline_24" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtLabel_howManyPeople"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/label_howManyPeople"
+                android:textAppearance="@style/TextAppearance.MyTheme.Headline3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnTipMinusPeople"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_weight="1"
+                    android:background="#F44336"
+                    android:contentDescription="@string/contentDesc_minusBtn"
+                    app:srcCompat="@drawable/sharp_remove_circle_outline_24" />
+
+                <TextView
+                    android:id="@+id/txtTipCurrentHowMany"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="1"
+                    android:textAppearance="@style/TextAppearance.MyTheme.Headline2" />
+
+                <ImageButton
+                    android:id="@+id/btnTipPlusPeople"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginEnd="45dp"
+                    android:layout_weight="1"
+                    android:background="#F44336"
+                    android:contentDescription="@string/contentDesc_plusBtn"
+                    app:srcCompat="@drawable/sharp_add_circle_outline_24" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

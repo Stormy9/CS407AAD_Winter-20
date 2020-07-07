@@ -1,0 +1,29 @@
+<resources>
+  <string name="app_name">Stormy\'s Weird &amp; Fun Holidays!</string>
+  <string name="welcome_msg">Welcome to the wonderful world of weird, usually fun holidays!</string>
+  <string name="password_error">Password must have  at least 6 characters</string>
+  <string name="email_error">Invalid email</string>
+  <string name="email_hint">E-mail</string>
+  <string name="password_hint">Password</string>
+  <string name="username_hint">Username</string>
+  <string name="register_button">Sign up</string>
+  <string name="repeat_password_hint">Repeat password</string>
+  <string name="username_error">Username needs to be at least 6 characters</string>
+  <string name="repeat_password_error">Passwords do not match</string>
+  <string name="log_in_button">Log in</string>
+  <string name="all_holidays_title">All Holidays</string>
+  <string name="favorite_holidays_title">Favorite Holidays</string>
+  <string name="my_profile_title">My profile</string>
+  <string name="log_out_button">Log out</string>
+  <string name="number_of_holidays_text">I have %d favorite holidays! </string>
+  <string name="email_text">User email: %s</string>
+  <string name="username_text">Username: %s</string>
+  <string name="welcome_description">In order to join other weird &amp; fun holiday revelers, you first need to sign up!</string>
+  <string name="no_items_text">There seems to be no items.....</string>
+  <string name="error_title">Oops</string>
+  <string name="error_message">Something went wrong! Please try again.</string>
+  <string name="general_positive_button">OK</string>
+  <string name="holiday_hint">Enter your Weird Holiday! like this => \'September 9: the best holiday ever\'</string>
+  <string name="add_holiday_text">Add your Holiday!</string>
+  <string name="holiday_error">Each Holiday must have at least 15 characters!</string>
+</resources>

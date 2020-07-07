@@ -1,0 +1,113 @@
+2020-02-08 03:24:04.457 3069-3069/? E/Zygote: v2
+2020-02-08 03:24:04.457 3069-3069/? I/libpersona: KNOX_SDCARD checking this for 10168
+2020-02-08 03:24:04.457 3069-3069/? I/libpersona: KNOX_SDCARD not a persona
+2020-02-08 03:24:04.458 3069-3069/? W/SELinux: SELinux selinux_android_compute_policy_index : Policy Index[2],  Con:u:r:zygote:s0 RAM:SEPF_SECMOBILE_7.1.1_0003, [-1 -1 -1 -1 0 1]
+2020-02-08 03:24:04.460 3069-3069/? I/SELinux: SELinux: seapp_context_lookup: seinfo=untrusted, level=s0:c512,c768, pkgname=com.example.stormyapiapp 
+2020-02-08 03:24:04.477 3069-3069/? I/art: Late-enabling -Xcheck:jni
+2020-02-08 03:24:04.664 3069-3069/com.example.stormyapiapp W/System: ClassLoader referenced unknown path: /data/app/com.example.stormyapiapp-2/lib/arm
+2020-02-08 03:24:05.099 3069-3069/com.example.stormyapiapp W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art: Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at void androidx.core.view.ViewCompat.setBackground(android.view.View, android.graphics.drawable.Drawable) (ViewCompat.java:2559)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at void androidx.appcompat.widget.ActionBarContainer.<init>(android.content.Context, android.util.AttributeSet) (ActionBarContainer.java:63)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at java.lang.Object java.lang.reflect.Constructor.newInstance0!(java.lang.Object[]) (Constructor.java:-2)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:430)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String, android.util.AttributeSet) (LayoutInflater.java:652)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:794)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet) (LayoutInflater.java:734)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:865)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View, android.util.AttributeSet, boolean) (LayoutInflater.java:828)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser, android.view.ViewGroup, boolean) (LayoutInflater.java:525)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean) (LayoutInflater.java:427)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup) (LayoutInflater.java:378)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at android.view.ViewGroup androidx.appcompat.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:749)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:659)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:552)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at void androidx.appcompat.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:161)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at void com.example.stormyapiapp.MainActivity.onCreate(android.os.Bundle) (MainActivity.kt:10)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6977)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1126)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2946)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3064)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at void android.app.ActivityThread.-wrap14(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1659)
+2020-02-08 03:24:05.182 3069-3069/com.example.stormyapiapp I/art:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:102)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void android.os.Looper.loop() (Looper.java:154)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6823)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at java.lang.Object java.lang.reflect.Method.invoke!(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run() (ZygoteInit.java:1563)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:1451)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art: Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/com.example.stormyapiapp-2/base.apk"],nativeLibraryDirectories=[/data/app/com.example.stormyapiapp-2/lib/arm, /system/lib, /vendor/lib]]
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:56)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:380)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void androidx.core.view.ViewCompat.setBackground(android.view.View, android.graphics.drawable.Drawable) (ViewCompat.java:2559)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void androidx.appcompat.widget.ActionBarContainer.<init>(android.content.Context, android.util.AttributeSet) (ActionBarContainer.java:63)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at java.lang.Object java.lang.reflect.Constructor.newInstance0!(java.lang.Object[]) (Constructor.java:-2)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:430)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String, android.util.AttributeSet) (LayoutInflater.java:652)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:794)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet) (LayoutInflater.java:734)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:865)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View, android.util.AttributeSet, boolean) (LayoutInflater.java:828)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser, android.view.ViewGroup, boolean) (LayoutInflater.java:525)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean) (LayoutInflater.java:427)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup) (LayoutInflater.java:378)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at android.view.ViewGroup androidx.appcompat.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:749)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void androidx.appcompat.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:659)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void androidx.appcompat.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:552)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void androidx.appcompat.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:161)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void com.example.stormyapiapp.MainActivity.onCreate(android.os.Bundle) (MainActivity.kt:10)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6977)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1126)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2946)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3064)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void android.app.ActivityThread.-wrap14(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1659)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:102)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void android.os.Looper.loop() (Looper.java:154)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6823)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at java.lang.Object java.lang.reflect.Method.invoke!(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run() (ZygoteInit.java:1563)
+2020-02-08 03:24:05.183 3069-3069/com.example.stormyapiapp I/art:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:1451)
+2020-02-08 03:24:05.331 3069-3069/com.example.stormyapiapp D/TextView: setTypeface with style : 0
+2020-02-08 03:24:05.333 3069-3069/com.example.stormyapiapp D/TextView: setTypeface with style : 0
+2020-02-08 03:24:05.346 3069-3069/com.example.stormyapiapp D/TextView: setTypeface with style : 0
+2020-02-08 03:24:05.472 3069-3069/com.example.stormyapiapp D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+2020-02-08 03:24:05.705 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: ThreadedRenderer.create() translucent=false
+2020-02-08 03:24:05.711 3069-3069/com.example.stormyapiapp D/InputTransport: Input channel constructed: fd=63
+2020-02-08 03:24:05.712 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: setView = DecorView@af3705a[MainActivity] touchMode=true
+2020-02-08 03:24:05.716 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: dispatchAttachedToWindow
+2020-02-08 03:24:05.798 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: Relayout returned: oldFrame=[0,0][0,0] newFrame=[0,0][768,1024] result=0x27 surface={isValid=true -1503383552} surfaceGenerationChanged=true
+2020-02-08 03:24:05.799 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: mHardwareRenderer.initialize() mSurface={isValid=true -1503383552} hwInitialized=true
+2020-02-08 03:24:05.801 3069-3098/com.example.stormyapiapp I/Adreno-EGL: <qeglDrvAPI_eglInitialize:379>: EGL 1.4 QUALCOMM build: Nondeterministic_AU_msm8916_32_LA.BR.1.2.9_RB1__release_AU (I750f7f2fa6)
+    OpenGL ES Shader Compiler Version: XE031.09.00.03
+    Build Date: 02/18/17 Sat
+    Local Branch: 
+    Remote Branch: quic/LA.BR.1.2.9_rb1.12
+    Local Patches: NONE
+    Reconstruct Branch: NOTHING
+2020-02-08 03:24:05.810 3069-3098/com.example.stormyapiapp I/OpenGLRenderer: Initialized EGL, version 1.4
+2020-02-08 03:24:05.810 3069-3098/com.example.stormyapiapp D/OpenGLRenderer: Swap behavior 1
+2020-02-08 03:24:05.811 3069-3098/com.example.stormyapiapp W/Adreno-EGL: <qeglDrvAPI_eglCreateContext:2475>: EGL_BAD_ATTRIBUTE
+2020-02-08 03:24:05.811 3069-3098/com.example.stormyapiapp I/OpenGLRenderer: KHR Debugger is Disabled - EGL_BAD_ATTRIBUTE
+2020-02-08 03:24:05.862 3069-3069/com.example.stormyapiapp I/ViewConfigCompat: Could not find method getScaledScrollFactor() on ViewConfiguration
+2020-02-08 03:24:05.872 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 768, 1024) ci=Rect(0, 24 - 0, 0) vi=Rect(0, 24 - 0, 0) or=1
+2020-02-08 03:24:05.872 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+2020-02-08 03:24:05.873 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: mHardwareRenderer.initializeIfNeeded()#2 mSurface={isValid=true -1503383552}
+2020-02-08 03:24:05.874 3069-3069/com.example.stormyapiapp V/InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@37dc2bd nm : com.example.stormyapiapp ic=null
+2020-02-08 03:24:05.874 3069-3069/com.example.stormyapiapp I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2020-02-08 03:24:05.901 3069-3082/com.example.stormyapiapp D/InputTransport: Input channel constructed: fd=68
+2020-02-08 03:24:06.094 3069-3069/com.example.stormyapiapp V/InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@64dc04f nm : com.example.stormyapiapp ic=null
+
+2020-02-08 03:24:06.327 3069-3069/com.example.stormyapiapp D/Repository: TV shows: [TVshow(id=4087, title=null, overview=The exploits of FBI Special Agents Fox Mulder and Dana Scully who investigate X-Files: marginalized, unsolved cases involving paranormal phenomena. Mulder believes in the existence of aliens and the paranormal while Scully, a skeptic, is assigned to make scientific analyses of Mulder's discoveries that debunk Mulder's work and thus return him to mainstream cases., posterPath=/5BD0kiTGnDxONqdrsswTewnk6WH.jpg, backdropPath=/5Ycqqaf27bNWyxm7XRc9gRVniYe.jpg, rating=8.1, releaseDate=null), TVshow(id=1705, title=null, overview=FBI Special Agent Olivia Dunham, brilliant but formerly institutionalized scientist Walter Bishop and his scheming, reluctant son Peter uncover a deadly mystery involving a series of unbelievable events and realize they may be a part of a larger, more disturbing pattern that blurs the line between science fiction and technology., posterPath=/sY9hg5dLJ93RJOyKEiu1nAtBRND.jpg, backdropPath=/qZGbLaRJ0FVekRWCRDu2ZdBFcJI.jpg, rating=8.1, releaseDate=null), TVshow(id=4607, title=null, overview=Stripped of everything, the survivors of a horrific plane crash  must work together to stay alive. But the island holds many secrets., posterPath=/jyGspygDXJMydTOJj7iWNx9Elyd.jpg, backdropPath=/pRPJj3oczSIxo8L80qNweXaWnrp.jpg, rating=7.8, releaseDate=null), TVshow(id=17937, title=null, overview=Paranormal investigator Zak Bagans and his crew, Nick Groff and Aaron Goodwin, search for haunted locations both domestically and internationally. During their investigations, Zak and crew acquaint themselves with the general area; interview locals about the hauntings; and go face-to-face with the evil spirits who reportedly haunt these locations., posterPath=/nD7ZA4nOHWfWvKTfpJeTbmfo8Co.jpg, backdropPath=/d93XZh1gztPrYlbc236trZbVdBa.jpg, rating=7.4, releaseDate=null), TVshow(id=14658, title=null, overview=A reality show contest where sixteen or more castaways split between two or more “Tribes” are taken to a remote isolated location and are forced to live off the land with meager supplies for roughly 39 days. Frequent physical challenges are used to pit the tribes against each other for rewards, such as food or luxuries, or for “Immunity”, forcing the other tribe to attend “Tribal Council”, where they must vote off one of their players., posterPath=/lhMjHBXe9auPCM1NELhCQQZbXcH.jpg, backdropPath=/4C18VaQa85hfOuY1I7PwD9Kicwd.jpg, rating=6.5, releaseDate=null), TVshow(id=4620, title=null, overview=The sleepy Pacific Northwest town of Eureka is hiding a mysterious secret. The government has been relocating the world's geniuses and their families to this rustic town for years where innovation and chaos have lived hand in hand. U.S. Marshal Jack Carter stumbles upon this odd town after wrecking his car and becoming stranded there. When the denizens of the town unleash an unknown scientific creation, Carter jumps in to try to restore order and consequently learns of one of the country's best kept secrets., posterPath=/dIQIpoJxpx5WfHv89Nc792A2Msj.jpg, backdropPath=/qeNGe0iIFPIrc1CV3VdWrugtqS9.jpg, rating=7.6, releaseDate=null), TVshow(id=15819, title=null, overview=After saving the life of the President, two secret service agents - Myka Bering and Pete Lattimer - find themselves assigned to the top secret Warehouse 13. The Warehouse is a massive, top secret facility that houses dangerous and fantastical objects. Together, Pete and Myka along with fellow agents Claudia, Steve Jinks and Warehouse caretaker Artie, must recover artifacts from around the globe before they can cause catastrophic damage., posterPath=/jzjRRy0GAPA6ppvCnXJEbrnU1GK.jpg, backdropPath=/uVVzx86x486ZAe1CM6iNQE9Xi2B.jpg, rating=7.5, releaseDate=null), TVshow(id=3184, title=null, overview=This mystery-drama revolves around a newspaper reporter named Dan Vasser who suddenly begins to travel through time to change the lives of those around him. When his travels reunite him with his long-lost fiancée Livia, life with his present-day wife gets very interesting., posterPath=/8
+
+2020-02-08 03:24:32.004 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: ViewPostImeInputStage processPointer 0
+2020-02-08 03:24:32.027 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: ViewPostImeInputStage processPointer 1
+2020-02-08 03:24:32.319 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: ViewPostImeInputStage processPointer 0
+2020-02-08 03:24:32.602 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: ViewPostImeInputStage processPointer 1
+2020-02-08 03:24:32.661 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: ViewPostImeInputStage processPointer 0
+2020-02-08 03:24:32.856 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: ViewPostImeInputStage processPointer 1
+2020-02-08 03:24:33.037 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: ViewPostImeInputStage processPointer 0
+2020-02-08 03:24:34.061 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: ViewPostImeInputStage processPointer 1
+2020-02-08 03:24:34.186 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: ViewPostImeInputStage processPointer 0
+2020-02-08 03:24:34.316 3069-3069/com.example.stormyapiapp D/ViewRootImpl@3af9805[MainActivity]: ViewPostImeInputStage processPointer 1

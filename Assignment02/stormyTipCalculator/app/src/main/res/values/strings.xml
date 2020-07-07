@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name"> stormy\'s tip calculator </string>
+
+    <string name="label_perPersonPays"> each person pays: </string>
+
+    <string name="label_enterBillTotal"> enter total bill $ </string>
+
+    <string name="label_setTipPercent"> pick tip % </string>
+
+    <string name="contentDesc_minusBtn"> minus button </string>
+
+    <string name="contentDesc_plusBtn"> plus button </string>
+
+    <string name="label_howManyPeople"> how many people? </string>
+
+
+
+</resources>

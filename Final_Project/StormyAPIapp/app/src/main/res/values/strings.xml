@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name"> Stormy\'s TV Lounge </string>
+
+    <string name="favorites"> Stormy\'s Favorites </string>
+
+    <string name="my_favorite_TVshows"> my most-favorite TV shows </string>
+
+    <string name="watchlist"> Stormy\'s To-Watch List </string>
+
+    <string name="my_TV_watchlist"> Stormy\'s TV to Watch </string>
+
+    <string name="airing_today"> What\'s On Today? </string>
+
+    <string name="watch_today"> find something you haven\'t seen before... </string>
+
+    <string name="error_fetch_TVshows"> oops... please check your internet settings! </string>
+
+</resources>

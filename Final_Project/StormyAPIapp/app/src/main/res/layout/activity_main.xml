@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:text="@string/favorites"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:text="@string/my_favorite_TVshows" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/favorite_TVshow_pictures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:clipToPadding="false"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp" />
+
+    <!-- Feature Two! --><!-- did i layer/nest correctly? -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="18dp"
+                android:text="@string/my_TV_watchlist"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginEnd="18dp"
+                android:text="@string/my_TV_watchlist" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/watchlist_TVshow_pictures"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:clipToPadding="false"
+                android:paddingStart="18dp"
+                android:paddingEnd="18dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <!-- ================================================== -->
+            <!-- Feature Two, Part Three! -->
+            <!-- ================================================== -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="18dp"
+                android:text="@string/airing_today"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginEnd="18dp"
+                android:text="@string/watch_today" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/tv_airing_today_pictures"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="9dp"
+                android:clipToPadding="false"
+                android:paddingStart="18dp"
+                android:paddingEnd="18dp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+<!-- ============================================================== -->
+<!-- from Feature Two, Step #3: -->
+<!-- be sure to wrap your `LinearLayout` with `NestedScrollView`    -->
+<!-- you will use `NestedScrollView` if it has scrollable views as  -->
+<!-- it's children such as a RecyclerView as it will take care of   -->
+<!-- handling nested scrolling for you.                             -->
+<!-- if you don't have scrollable views as children, a normal       -->
+<!-- ScrollView will do.                                            -->
